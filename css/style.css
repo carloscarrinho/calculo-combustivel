@@ -1,2 +1,58 @@
 /* global styles */
 
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E76D83;
+  font-family: Ubuntu, Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+header {
+  background-color: #393D3F;
+  color: #fff;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  font-size: 3em;
+}
+
+form {
+  height: 100px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+form div {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+form div label {
+  color: #fff;
+  font-weight: bold;
+}
+
+form div input {
+  margin-top: 5px;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 4px;
+}
+
+form div input:focus {
+  border: 2px solid #9CC4B2;
+}

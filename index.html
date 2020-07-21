@@ -10,22 +10,29 @@
   <header>
     <h1>Cálculo de Combustível</h1>
   </header>
-  
+
   <main>
     <form>
-      <label for="initial-km"></label>
-      <input type="number" placeholder="27800" id="initial-km" name="initial-km"/>
+      <div>
+        <label for="initial-km">Km Inicial</label>
+        <input type="number" placeholder="27800" id="initial-km" name="initial-km"/>
+      </div>
       
-      <label for="final-km"></label>
-      <input type="number" placeholder="27800" id="final-km" name="final-km"/>
+      <div>
+        <label for="final-km">Km Final</label>
+        <input type="number" placeholder="27800" id="final-km" name="final-km"/>
+      </div>
       
-      <label for="liters"></label>
-      <input type="number" placeholder="38.2" id="liters" name="liters"/>
+      <div>
+        <label for="liters">Litros Abastecidos</label>
+        <input type="number" placeholder="38,2" step="0.1" value="1" id="liters" name="liters"/>
+      </div>
+      
+      <div>
+        <label for="spent-fuel">Consumo</label>
+        <input type="text" placeholder="12,4 km/l" id="spent-fuel" name="spent-fuel" disabled/>
+      </div>
     </form>
-    
-    <div >
-      <span id="result"></span>
-    </div>
   </main>
 
   <script src="/js/scripts.js"></script>
