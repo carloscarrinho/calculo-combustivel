@@ -1,6 +1,3 @@
 # Cálculo de Combustível
-
-- km inicial;
-- km final;
-- Qtd de litros abastecidos;
-- km/l;
+## Disciplina de Frontend do IGTI
+Elaborar uma aplicação que realize um cálculo de combustível simples.
